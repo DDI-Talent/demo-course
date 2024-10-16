@@ -1,0 +1,21 @@
+---
+title: "refresh_github_test"
+output: html_document
+date: '2024-10-16'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo = T, results = 'hide'}
+devtools::install_github('ddi-talent/usheR')
+library(usheR)
+update_from_github()
+# create_pairs(LETTERS[1:11])
+```
+```{r}
+devtools::install_github('ddi-talent/usheR')
+library(usheR)
+create_pairs(LETTERS[1:11])
+```

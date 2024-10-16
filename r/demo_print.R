@@ -1,2 +1,1 @@
-print("banana-teacher2")
-print("banana-teacher3")
+print("banana test")
